@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF596DA322808B3500D6DC81 /* trumpet.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF596DA222808B3500D6DC81 /* trumpet.wav */; };
+		EF596DA522808D4B00D6DC81 /* harry.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF596DA422808D4B00D6DC81 /* harry.wav */; };
 		EF8D1C2622773F3E003D95D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8D1C2522773F3E003D95D2 /* AppDelegate.swift */; };
 		EF8D1C2822773F3E003D95D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8D1C2722773F3E003D95D2 /* ViewController.swift */; };
-		EF8D1C2B22773F3E003D95D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8D1C2922773F3E003D95D2 /* Main.storyboard */; };
+		EF8D1C2B22773F3E003D95D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8D1C2922773F3E003D95D2 /* Main.storyboard */; settings = {ASSET_TAGS = (hola, ); }; };
 		EF8D1C2D22773F40003D95D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8D1C2C22773F40003D95D2 /* Assets.xcassets */; };
 		EF8D1C3022773F40003D95D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8D1C2E22773F40003D95D2 /* LaunchScreen.storyboard */; };
+		EFFBAEA822847B22001606BE /* lalala.wav in Resources */ = {isa = PBXBuildFile; fileRef = EFFBAEA722847B21001606BE /* lalala.wav */; };
+		EFFBAEAA22847B36001606BE /* violin.wav in Resources */ = {isa = PBXBuildFile; fileRef = EFFBAEA922847B36001606BE /* violin.wav */; };
+		EFFBAEAC22847B63001606BE /* guitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = EFFBAEAB22847B63001606BE /* guitar.wav */; };
+		EFFBAEAE22847C8F001606BE /* flute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFFBAEAD22847C8F001606BE /* flute.mp3 */; };
+		EFFBAEB022847DD2001606BE /* drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFFBAEAF22847DD2001606BE /* drum.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF596DA222808B3500D6DC81 /* trumpet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trumpet.wav; sourceTree = "<group>"; };
+		EF596DA422808D4B00D6DC81 /* harry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = harry.wav; sourceTree = "<group>"; };
 		EF8D1C2222773F3E003D95D2 /* practica2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practica2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8D1C2522773F3E003D95D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8D1C2722773F3E003D95D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,11 @@
 		EF8D1C2C22773F40003D95D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF8D1C2F22773F40003D95D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF8D1C3122773F40003D95D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFBAEA722847B21001606BE /* lalala.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lalala.wav; sourceTree = "<group>"; };
+		EFFBAEA922847B36001606BE /* violin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = violin.wav; sourceTree = "<group>"; };
+		EFFBAEAB22847B63001606BE /* guitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar.wav; sourceTree = "<group>"; };
+		EFFBAEAD22847C8F001606BE /* flute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flute.mp3; sourceTree = "<group>"; };
+		EFFBAEAF22847DD2001606BE /* drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drum.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF596DA122808B1D00D6DC81 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				EF596DA422808D4B00D6DC81 /* harry.wav */,
+				EF596DA222808B3500D6DC81 /* trumpet.wav */,
+				EFFBAEAB22847B63001606BE /* guitar.wav */,
+				EFFBAEAF22847DD2001606BE /* drum.mp3 */,
+				EFFBAEAD22847C8F001606BE /* flute.mp3 */,
+				EFFBAEA722847B21001606BE /* lalala.wav */,
+				EFFBAEA922847B36001606BE /* violin.wav */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
 		EF8D1C1922773F3E003D95D2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +82,7 @@
 		EF8D1C2422773F3E003D95D2 /* practica2 */ = {
 			isa = PBXGroup;
 			children = (
+				EF596DA122808B1D00D6DC81 /* audio */,
 				EF8D1C2522773F3E003D95D2 /* AppDelegate.swift */,
 				EF8D1C2722773F3E003D95D2 /* ViewController.swift */,
 				EF8D1C2922773F3E003D95D2 /* Main.storyboard */,
@@ -90,6 +119,9 @@
 		EF8D1C1A22773F3E003D95D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					hola,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = GRV;
@@ -123,7 +155,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8D1C3022773F40003D95D2 /* LaunchScreen.storyboard in Resources */,
+				EF596DA322808B3500D6DC81 /* trumpet.wav in Resources */,
+				EFFBAEAC22847B63001606BE /* guitar.wav in Resources */,
+				EFFBAEB022847DD2001606BE /* drum.mp3 in Resources */,
+				EFFBAEAE22847C8F001606BE /* flute.mp3 in Resources */,
 				EF8D1C2D22773F40003D95D2 /* Assets.xcassets in Resources */,
+				EF596DA522808D4B00D6DC81 /* harry.wav in Resources */,
+				EFFBAEA822847B22001606BE /* lalala.wav in Resources */,
+				EFFBAEAA22847B36001606BE /* violin.wav in Resources */,
 				EF8D1C2B22773F3E003D95D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
