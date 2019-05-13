@@ -43,13 +43,6 @@ class ViewController: UIViewController {
         } catch {
             print("Error")
         }
-        
-        pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(ViewController.pinch(_ :)))
-        pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(ViewController.pinch2(_ :)))
-        pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(ViewController.pinch3(_ :)))
-        pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(ViewController.pinch4(_ :)))
-        pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(ViewController.pinch5(_ :)))
-        pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(ViewController.pinch6(_ :)))
     }
     
     @objc func pinchedView(_ sender: UIPinchGestureRecognizer,_ imageView: UIImageView) {
@@ -96,7 +89,6 @@ class ViewController: UIViewController {
         default:
             break
             }
-        
     }
     
     @IBAction func rotate(_ sender: UIRotationGestureRecognizer) {
