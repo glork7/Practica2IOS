@@ -20,13 +20,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fud-mG-uZO">
-                                <rect key="frame" x="16" y="80" width="343" height="571"/>
+                                <rect key="frame" x="16" y="80" width="258" height="571"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aXG-k0-ZCS">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="185"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="258" height="185"/>
                                         <subviews>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="125" placeholderIntrinsicHeight="125" image="iTunesArtwork" translatesAutoresizingMaskIntoConstraints="NO" id="3ij-Mo-IUh">
-                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="185"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="185"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" image="YES" playsSound="YES"/>
                                                 </accessibility>
@@ -36,66 +36,78 @@
                                                 </constraints>
                                                 <connections>
                                                     <outletCollection property="gestureRecognizers" destination="xzv-oO-2CD" appends="YES" id="18Z-7F-hHW"/>
+                                                    <outletCollection property="gestureRecognizers" destination="31J-ie-sHX" appends="YES" id="uPW-vG-74V"/>
+                                                    <outletCollection property="gestureRecognizers" destination="4Gp-aE-c6p" appends="YES" id="5jl-za-Adm"/>
                                                 </connections>
                                             </imageView>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="125" placeholderIntrinsicHeight="125" image="iTunesArtwork-1" translatesAutoresizingMaskIntoConstraints="NO" id="DCe-WG-MiK">
-                                                <rect key="frame" x="175.5" y="0.0" width="167.5" height="185"/>
+                                                <rect key="frame" x="133" y="0.0" width="125" height="185"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="125" id="he1-rt-5oP"/>
                                                 </constraints>
                                                 <connections>
                                                     <outletCollection property="gestureRecognizers" destination="Uic-8L-cjq" appends="YES" id="fud-Kd-n6a"/>
+                                                    <outletCollection property="gestureRecognizers" destination="lQR-VD-bU4" appends="YES" id="8A3-y8-vlR"/>
+                                                    <outletCollection property="gestureRecognizers" destination="Uf8-AS-ROu" appends="YES" id="Sle-nS-pwX"/>
                                                 </connections>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3Sb-on-4Qy">
-                                        <rect key="frame" x="0.0" y="193" width="343" height="185"/>
+                                        <rect key="frame" x="0.0" y="193" width="258" height="185"/>
                                         <subviews>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="125" placeholderIntrinsicHeight="125" image="iTunesArtwork-2" translatesAutoresizingMaskIntoConstraints="NO" id="SAK-uK-vjb">
-                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="185"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="185"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="125" id="twF-rb-UUS"/>
                                                 </constraints>
                                                 <connections>
                                                     <outletCollection property="gestureRecognizers" destination="kuj-UF-Vwm" appends="YES" id="Ar0-YQ-t68"/>
+                                                    <outletCollection property="gestureRecognizers" destination="k1b-48-jWr" appends="YES" id="J4f-Gy-LVU"/>
+                                                    <outletCollection property="gestureRecognizers" destination="PiK-UR-fwh" appends="YES" id="uME-yr-oHa"/>
                                                 </connections>
                                             </imageView>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="125" placeholderIntrinsicHeight="125" image="iTunesArtwork-3" translatesAutoresizingMaskIntoConstraints="NO" id="bXf-WC-nLR">
-                                                <rect key="frame" x="175.5" y="0.0" width="167.5" height="185"/>
+                                                <rect key="frame" x="133" y="0.0" width="125" height="185"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="125" id="CeY-ua-9f9"/>
                                                 </constraints>
                                                 <connections>
                                                     <outletCollection property="gestureRecognizers" destination="QAn-3H-pQD" appends="YES" id="TQv-KB-c99"/>
+                                                    <outletCollection property="gestureRecognizers" destination="2c1-YD-N8q" appends="YES" id="dMy-9Y-VS5"/>
+                                                    <outletCollection property="gestureRecognizers" destination="9pW-m8-HDI" appends="YES" id="cSW-u3-QX8"/>
                                                 </connections>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Z4I-J9-eM2">
-                                        <rect key="frame" x="0.0" y="386" width="343" height="185"/>
+                                        <rect key="frame" x="0.0" y="386" width="258" height="185"/>
                                         <subviews>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="125" placeholderIntrinsicHeight="125" image="iTunesArtwork-4" translatesAutoresizingMaskIntoConstraints="NO" id="KRs-pf-bse">
-                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="185"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="185"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="125" id="ItV-Wm-HeA"/>
                                                 </constraints>
                                                 <connections>
                                                     <outletCollection property="gestureRecognizers" destination="NjW-m7-dLb" appends="YES" id="LYV-Ms-Q3X"/>
+                                                    <outletCollection property="gestureRecognizers" destination="EM9-GW-AUc" appends="YES" id="PDA-kH-ZSu"/>
+                                                    <outletCollection property="gestureRecognizers" destination="bCN-kU-RA0" appends="YES" id="Ekm-4t-Odd"/>
                                                 </connections>
                                             </imageView>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="125" placeholderIntrinsicHeight="125" image="iTunesArtwork-5" translatesAutoresizingMaskIntoConstraints="NO" id="A0N-8s-AVw">
-                                                <rect key="frame" x="175.5" y="0.0" width="167.5" height="185"/>
+                                                <rect key="frame" x="133" y="0.0" width="125" height="185"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="125" id="BHx-SG-eyQ"/>
                                                 </constraints>
                                                 <connections>
                                                     <outletCollection property="gestureRecognizers" destination="tnf-Mb-xbG" appends="YES" id="q5y-Fv-bJn"/>
+                                                    <outletCollection property="gestureRecognizers" destination="eHu-8u-vaf" appends="YES" id="oos-HP-TMN"/>
+                                                    <outletCollection property="gestureRecognizers" destination="z0g-QU-XIA" appends="YES" id="hlg-MO-Egx"/>
                                                 </connections>
                                             </imageView>
                                         </subviews>
@@ -121,6 +133,12 @@
                     </navigationItem>
                     <connections>
                         <outlet property="PlayButton" destination="yx5-oG-BDd" id="78D-Al-wqR"/>
+                        <outlet property="drum" destination="A0N-8s-AVw" id="s5T-AY-fwE"/>
+                        <outlet property="flute" destination="3ij-Mo-IUh" id="hh4-KK-422"/>
+                        <outlet property="guitar" destination="bXf-WC-nLR" id="fQu-3b-EEt"/>
+                        <outlet property="micro" destination="KRs-pf-bse" id="cJp-dH-Alw"/>
+                        <outlet property="trumpet" destination="DCe-WG-MiK" id="Pkw-sU-eL3"/>
+                        <outlet property="violin" destination="SAK-uK-vjb" id="ldA-Ym-DH5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -154,6 +172,66 @@
                         <action selector="tap6:" destination="BYZ-38-t0r" id="36W-yL-a2f"/>
                     </connections>
                 </tapGestureRecognizer>
+                <pinchGestureRecognizer id="31J-ie-sHX">
+                    <connections>
+                        <action selector="pinch:" destination="BYZ-38-t0r" id="efD-wd-VnZ"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="lQR-VD-bU4">
+                    <connections>
+                        <action selector="pinch2:" destination="BYZ-38-t0r" id="4F1-7D-0A2"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="k1b-48-jWr">
+                    <connections>
+                        <action selector="pinch3:" destination="BYZ-38-t0r" id="c1h-XF-s2J"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="2c1-YD-N8q">
+                    <connections>
+                        <action selector="pinch4:" destination="BYZ-38-t0r" id="LdK-Zj-BSW"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="EM9-GW-AUc">
+                    <connections>
+                        <action selector="pinch5:" destination="BYZ-38-t0r" id="cDU-46-cON"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="eHu-8u-vaf">
+                    <connections>
+                        <action selector="pinch6:" destination="BYZ-38-t0r" id="Tm5-6y-i32"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="4Gp-aE-c6p">
+                    <connections>
+                        <action selector="rotate:" destination="BYZ-38-t0r" id="yAz-te-aYP"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="Uf8-AS-ROu">
+                    <connections>
+                        <action selector="rotate2:" destination="BYZ-38-t0r" id="rSy-Kl-QOQ"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="PiK-UR-fwh">
+                    <connections>
+                        <action selector="rotate3:" destination="BYZ-38-t0r" id="Rtg-06-S49"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="9pW-m8-HDI">
+                    <connections>
+                        <action selector="rotate4:" destination="BYZ-38-t0r" id="RIO-Hj-uV7"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="bCN-kU-RA0">
+                    <connections>
+                        <action selector="rotate5:" destination="BYZ-38-t0r" id="1NQ-Ec-PK6"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="z0g-QU-XIA">
+                    <connections>
+                        <action selector="rotate6:" destination="BYZ-38-t0r" id="ld0-Dk-VCv"/>
+                    </connections>
+                </rotationGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1599.2" y="160.56971514242881"/>
         </scene>
